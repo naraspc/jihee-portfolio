@@ -487,17 +487,22 @@
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
-  gap: 30px;
-  padding-bottom: 34px;
+  gap: 32px;
+  padding-bottom: 42px;
   border-bottom: 1px solid var(--line);
 }
 
 .project-modal__header h2 {
+  max-width: 1100px;
   margin: 0;
-  font-size: clamp(46px, 8vw, 112px);
-  font-weight: 500;
-  letter-spacing: -0.075em;
-  line-height: 0.92;
+  font-family:
+    Pretendard,
+    'Noto Sans KR',
+    sans-serif;
+  font-size: clamp(58px, 7vw, 108px);
+  font-weight: 700;
+  line-height: 0.96;
+  letter-spacing: -0.065em;
 }
 
 .modal-close {
@@ -511,38 +516,50 @@
 
 .project-modal__intro {
   display: grid;
-  grid-template-columns: 1.25fr 0.75fr;
-  gap: clamp(40px, 8vw, 130px);
-  padding: clamp(42px, 8vw, 100px) 0;
+  grid-template-columns: minmax(0, 1.25fr) minmax(320px, 0.75fr);
+  gap: clamp(64px, 9vw, 150px);
+  align-items: start;
+  padding: clamp(60px, 7vw, 100px) 0 clamp(80px, 9vw, 130px);
 }
 
 .project-modal__intro > p {
-  max-width: 850px;
+  max-width: 760px;
   margin: 0;
-  font-size: clamp(24px, 3.5vw, 50px);
+  font-family:
+    Pretendard,
+    'Noto Sans KR',
+    sans-serif;
+  font-size: clamp(28px, 2.8vw, 40px);
+  font-weight: 500;
+  line-height: 1.38;
   letter-spacing: -0.045em;
-  line-height: 1.32;
   word-break: keep-all;
+  white-space: pre-line;
 }
 
 .project-meta {
   display: grid;
-  grid-template-columns: 78px 1fr;
+  grid-template-columns: 80px minmax(0, 1fr);
   align-content: start;
-  margin: 0;
-  gap: 14px 20px;
-  font-size: 13px;
-  line-height: 1.6;
+  margin: 8px 0 0;
+  gap: 18px 26px;
+  font-size: 14px;
+  line-height: 1.65;
 }
 
 .project-meta dt {
-  color: var(--muted);
+  color: #858980;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.03em;
 }
 
 .project-meta dd {
   margin: 0;
+  color: var(--ink);
+  font-weight: 500;
+  word-break: keep-all;
 }
-
 .project-modal__gallery {
   display: grid;
   gap: 20px;
@@ -700,6 +717,28 @@
 }
 
 @media (max-width: 640px) {
+  .project-modal__header h2 {
+    font-size: clamp(44px, 13vw, 62px);
+    line-height: 1;
+  }
+
+  .project-modal__intro {
+    grid-template-columns: 1fr;
+    gap: 52px;
+    padding: 52px 0 72px;
+  }
+
+  .project-modal__intro > p {
+    font-size: clamp(27px, 7vw, 36px);
+    line-height: 1.38;
+  }
+
+  .project-meta {
+    grid-template-columns: 64px 1fr;
+    gap: 14px 18px;
+    font-size: 13px;
+  }
+
   .site-header {
     padding-top: 17px;
     padding-bottom: 17px;

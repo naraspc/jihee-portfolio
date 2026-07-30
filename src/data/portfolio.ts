@@ -76,7 +76,7 @@ export const projects: Project[] = [
     title: '명륜진사갈비',
     category: '프리미엄 무한리필 갈비 전문점',
     description:
-      '여기에 들어갈 문구 정해서 알려주세요.',
+      '전통의 무게감은 남기고, \n네이비와 골드로 현대적인 품격을 더했습니다.',
     client: '명륜당',
     duration: '30 - 40일',
     contribution:
@@ -94,7 +94,7 @@ export const projects: Project[] = [
     title: '팔도소갈비',
     category: '소갈비 전문점',
     description:
-      '체리우드의 따뜻함과 은색 스테인리스의 세련됨을 조합하고, 업종의 동선을 고려한 설계로 운영 편의성을 높인 프로젝트입니다.',
+       '체리우드의 온기와 스테인리스의 세련미를 조합해,\n편안하면서도 품격 있는 공간을 완성했습니다.',
     client: '팔도소갈비',
     duration: '30 - 40일',
     contribution:
@@ -113,7 +113,7 @@ export const projects: Project[] = [
     title: '수제 도넛 카페',
     category: '카페 리뉴얼',
     description:
-      '산뜻하고 싱그러운 분위기를 연출하기 위해 민트 계열 컬러를 중심으로 공간과 사인 디자인을 구성했습니다.',
+      '민트 컬러의 산뜻함을 중심으로,\n밝고 싱그러운 브랜드 이미지를 공간에 담았습니다.',
     client: '개인',
     duration: '14일',
     contribution:
@@ -127,7 +127,7 @@ export const projects: Project[] = [
     title: '육미제당',
     category: '대장갈비 전문점',
     description:
-      '딥그린과 로즈골드를 포인트로 활용해 차분하면서도 고급스러운 분위기를 연출하고, 운영 동선을 고려해 공간을 설계했습니다.',
+      '딥그린의 안정감에 로즈골드 포인트를 더해,\n차분하면서도 고급스러운 분위기를 연출했습니다.',
     client: '육미제당',
     duration: '30 - 40일',
     contribution:
@@ -141,7 +141,7 @@ export const projects: Project[] = [
     title: '샤브올데이',
     category: '프리미엄 샤브 뷔페 전문점',
     description:
-      '도면, 가구 상세, 3D 렌더링과 사인 시안을 통해 매장 전반의 공간 구성을 구체화한 프로젝트입니다.',
+      '도면과 가구 디테일, 3D 시각화를 연결해,\n브랜드 공간의 완성도를 구체화했습니다.',
     tools: ['AutoCAD', 'SketchUp', 'Rendering', 'Illustrator'],
     images: [
       '/images/projects/page-15.jpg',
@@ -157,7 +157,7 @@ export const projects: Project[] = [
     title: '박만배아리랑',
     category: '가브리살보쌈 전문점',
     description:
-      '업종의 동선을 고려한 설계를 통해 운영 편의성을 높이는 데 집중한 프로젝트입니다.',
+      '업종에 최적화된 동선을 중심으로,\n운영 효율과 공간의 실용성을 함께 설계했습니다.',
     client: '박만배아리랑',
     duration: '14 - 30일',
     contribution: '실측도, 평면도, 입면도, 천장도, 현장 감리 · 기여도 100%',
@@ -170,7 +170,7 @@ export const projects: Project[] = [
     title: '그릭베리',
     category: '아사이볼 카페',
     description:
-      '평면과 입면 설계부터 3D 모델링, 렌더링과 현장 감리까지 공간 구현 전반에 참여한 프로젝트입니다.',
+      '평면 설계부터 3D 모델링과 현장 감리까지,\n브랜드 공간이 구현되는 전 과정을 함께했습니다.',
     client: '돌우물',
     duration: '14 - 30일',
     contribution: '실측도, 평면도, 입면도, 3D 모델링, 현장 감리 · 기여도 90%',
@@ -187,7 +187,7 @@ export const projects: Project[] = [
     title: '두보마라탕',
     category: '마라탕 배달 전문점',
     description:
-      '소규모 배달 전문 매장의 평면 계획과 3D 모델링을 진행하고 현장 감리까지 담당한 프로젝트입니다.',
+      '배달 전문점에 필요한 기능을 간결하게 정리해,\n효율적이고 실용적인 공간을 완성했습니다.',
     client: '돌우물',
     duration: '12 - 14일',
     contribution: '실측도, 평면도, 3D 모델링, 현장 감리 · 기여도 100%',
@@ -200,7 +200,7 @@ export const projects: Project[] = [
     title: '와드커피',
     category: '디저트 전문 카페',
     description:
-      '브랜드 컬러를 중심으로 외관과 내부 공간의 3D 모델링 및 시각화를 진행한 프로젝트입니다.',
+    '브랜드 컬러와 밝은 이미지를 중심으로,\n외관과 내부 공간의 분위기를 3D로 구체화했습니다.',
     client: '돌우물',
     duration: '20일',
     contribution: '3D 모델링 · 기여도 50%',
@@ -213,7 +213,7 @@ export const projects: Project[] = [
     title: '퐁치카페',
     category: '베트남 푸미흥 K-디저트 전문 카페',
     description:
-      '베트남 푸미흥 지역의 K-디저트 카페를 위한 콘셉트 기획, 평면 계획과 3D 모델링 프로젝트입니다.',
+      'K-디저트 브랜드의 감각을 공간에 담아,\n베트남 푸미흥 매장의 콘셉트와 동선을 구체화했습니다.',
     client: '돌우물',
     duration: '40일',
     contribution: '콘셉트 기획, 실측도, 평면도, 3D 모델링 · 기여도 30%',
