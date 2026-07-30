@@ -34,11 +34,10 @@ export function About() {
           </p>
 
           <div className="about__contact">
-            <span>Contact</span>
-            <a className="text-link" href={`mailto:${profile.email}`}>
-              {profile.email} <span aria-hidden="true">↗</span>
-            </a>
+          <span>Contact</span>
+          <span className="text-email">{profile.email}</span>
           </div>
+
         </div>
       </div>
 

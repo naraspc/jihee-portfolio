@@ -71,7 +71,7 @@ export const projects: Project[] = [
     title: '명륜진사갈비',
     category: '프리미엄 무한리필 갈비 전문점',
     description:
-      '성균관 유생들의 식사를 담당하던 진사식당에서 유래된 브랜드의 아이덴티티를 표현하기 위해 톤 다운된 네이비와 금색 몰딩을 활용해 모던하고 고급스러운 분위기를 구성했습니다.',
+      '여기에 들어갈 문구 정해서 알려주세요.',
     client: '명륜당',
     duration: '30 - 40일',
     contribution:
