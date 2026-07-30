@@ -10,6 +10,11 @@ export const profile = {
     '작은 경험이 모여 보다 좋은 디자인을 만든다고 믿습니다. 공간이 주는 가치를 고민하고, 사람들의 경험을 바꿀 수 있는 디자이너가 되기 위해 꾸준히 커리어를 이어가고 있습니다.',
 };
 
+export const gmailComposeUrl =
+  `https://mail.google.com/mail/?view=cm&fs=1` +
+  `&to=${encodeURIComponent(profile.email)}` +
+  `&su=${encodeURIComponent('포트폴리오 문의')}`;
+
 export const education = [
   {
     title: '수원과학대학교 실내건축디자인과 졸업',

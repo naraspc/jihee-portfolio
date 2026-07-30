@@ -10,7 +10,7 @@ export function Header() {
       <nav className="main-nav" aria-label="주요 메뉴">
         <a href="#about">About</a>
         <a href="#projects">Projects</a>
-        <a href={`mailto:${profile.email}`}>Contact</a>
+        <a href="#contact">Contact</a>
       </nav>
     </header>
   );
