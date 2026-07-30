@@ -1,4 +1,4 @@
-import { profile } from '../data/portfolio';
+
 
 export function Header() {
   return (
