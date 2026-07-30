@@ -1,14 +1,24 @@
 :root {
   font-family:
     Pretendard,
+    'Noto Sans KR',
     -apple-system,
     BlinkMacSystemFont,
     'Segoe UI',
     sans-serif;
-  color: #1d1d1d;
-  background: #f5f3ee;
+  color: #20231f;
+  background: #f1f0eb;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
+  --green: #52684d;
+  --green-deep: #354634;
+  --paper: #f1f0eb;
+  --paper-light: #f8f7f3;
+  --ink: #20231f;
+  --muted: #6c716a;
+  --line: rgba(32, 35, 31, 0.18);
+  --page-padding: clamp(20px, 4vw, 64px);
+  --content-width: 1480px;
 }
 
 *,
@@ -24,6 +34,13 @@ html {
 body {
   min-width: 320px;
   margin: 0;
+  background: var(--paper);
+}
+
+body,
+button,
+a {
+  color: var(--ink);
 }
 
 button,
@@ -33,12 +50,20 @@ select {
   font: inherit;
 }
 
+button {
+  border: 0;
+}
+
 img {
   display: block;
   max-width: 100%;
 }
 
 a {
-  color: inherit;
   text-decoration: none;
+}
+
+::selection {
+  color: var(--paper-light);
+  background: var(--green-deep);
 }
