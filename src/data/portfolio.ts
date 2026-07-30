@@ -13,7 +13,7 @@ export const profile = {
 export const gmailComposeUrl =
   `https://mail.google.com/mail/?view=cm&fs=1` +
   `&to=${encodeURIComponent(profile.email)}` +
-  `&su=${encodeURIComponent('포트폴리오 문의')}`;
+  `&su=${encodeURIComponent('포트폴리오 문의드립니다.')}`;
 
 export const education = [
   {

@@ -17,7 +17,7 @@ export function About() {
       <div className="about__lead">
         <div className="portrait-frame">
           <img
-            src="/images/profile/jihee.webp"
+            src="/images/profile/jihee-v2.webp"
             alt="디자이너 황지희 프로필"
           />
         </div>
