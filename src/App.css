@@ -937,7 +937,7 @@
     flex-direction: column;
     gap: 12px;
   }
-}
+
 
 @media (max-width: 420px) {
   .site-header {
