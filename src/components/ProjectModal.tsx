@@ -68,7 +68,11 @@ export function ProjectModal({ project, onClose }: ProjectModalProps) {
         </div>
 
         <div className="project-modal__intro">
-          <p>{project.description}</p>
+          <p className="project-modal__description">
+            {project.description.split('\n').map((line) => (
+              <span key={line}>{line}</span>
+            ))}
+          </p>
 
           <dl className="project-meta">
             {project.client && (

@@ -6,10 +6,12 @@ export function Hero() {
       <div className="hero__content">
         <p className="eyebrow">INTERIOR DESIGN · 2023—2026</p>
 
-        <h1>
-          매일 한 걸음 더 나아가는,
-          <br />
-          디자이너 <strong>황지희</strong>입니다.
+        <h1 className="hero__title">
+          <span className="hero__title-line">매일 한 걸음 더 나아가는,</span>
+
+          <span className="hero__title-line">
+            디자이너 <strong>황지희</strong>입니다.
+          </span>
         </h1>
 
         <div className="hero__bottom">

@@ -141,18 +141,37 @@
   width: min(100%, var(--content-width));
   margin: 0 auto;
 }
+@media (max-width: 640px) {
+  .hero__title {
+    font-size: clamp(42px, 12.5vw, 64px);
+    line-height: 1.16;
+    letter-spacing: -0.065em;
+  }
 
-.hero h1 {
-  max-width: 1250px;
+  .hero__title-line {
+    width: auto;
+    white-space: normal;
+  }
+}
+
+.hero__title {
+  max-width: none;
   margin: 0;
-  font-size: clamp(52px, 8vw, 126px);
+  font-size: clamp(52px, 6vw, 108px);
   font-weight: 350;
-  letter-spacing: -0.075em;
-  line-height: 0.98;
+  line-height: 1.12;
+  letter-spacing: -0.07em;
   word-break: keep-all;
 }
 
-.hero h1 strong {
+.hero__title-line {
+  display: block;
+  width: max-content;
+  max-width: 100%;
+  white-space: nowrap;
+}
+
+.hero__title strong {
   font-weight: 750;
 }
 
@@ -221,17 +240,23 @@
 }
 
 .about__statement {
-  max-width: 960px;
+  width: 100%;
+  max-width: 1000px;
   margin: 0;
-  font-size: clamp(25px, 3.25vw, 48px);
+  font-family:
+    Pretendard,
+    'Noto Sans KR',
+    sans-serif;
+  font-size: clamp(26px, 2.3vw, 40px);
   font-weight: 430;
+  line-height: 1.48;
   letter-spacing: -0.045em;
-  line-height: 1.42;
   word-break: keep-all;
 }
 
 .about__statement span {
   display: block;
+  white-space: normal;
 }
 
 .about__statement strong {
@@ -264,6 +289,17 @@
   margin-top: clamp(100px, 12vw, 180px);
   border-top: 1px solid var(--line);
   border-left: 1px solid var(--line);
+}
+
+@media (max-width: 900px) {
+  .about__line-break {
+    display: none;
+  }
+
+  .about__statement {
+    max-width: 760px;
+    font-size: clamp(25px, 5vw, 38px);
+  }
 }
 
 .info-block {
@@ -522,19 +558,23 @@
   padding: clamp(60px, 7vw, 100px) 0 clamp(80px, 9vw, 130px);
 }
 
-.project-modal__intro > p {
-  max-width: 760px;
+.project-modal__description {
+  max-width: 1000px;
   margin: 0;
   font-family:
     Pretendard,
     'Noto Sans KR',
     sans-serif;
-  font-size: clamp(28px, 2.8vw, 40px);
+  font-size: clamp(26px, 2.45vw, 38px);
   font-weight: 500;
-  line-height: 1.38;
+  line-height: 1.48;
   letter-spacing: -0.045em;
   word-break: keep-all;
-  white-space: pre-line;
+}
+
+.project-modal__description span {
+  display: block;
+  white-space: nowrap;
 }
 
 .project-meta {
@@ -717,10 +757,15 @@
 }
 
 @media (max-width: 640px) {
-  .project-modal__header h2 {
-    font-size: clamp(44px, 13vw, 62px);
-    line-height: 1;
+  .project-modal__description {
+    font-size: clamp(24px, 7vw, 32px);
+    line-height: 1.48;
   }
+
+  .project-modal__description span {
+    white-space: normal;
+  }
+}
 
   .project-modal__intro {
     grid-template-columns: 1fr;
